@@ -7,8 +7,8 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-.mainBodyContainer {
-	position: relative;
+/* .mainBodyContainer { */
+	/* position: relative; */
 
 
 	/* text-shadow:
@@ -16,7 +16,7 @@ body{
 		1px -1px 0 #FFDDDD,
 		-1px 1px 0 #FFDDDD,
 		1px 1px 0 #FFDDDD; */
-}
+/* } */
 #selfie{
 	float:right;
 	max-height: 50vh;
@@ -51,9 +51,14 @@ footer {
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%); */
 }
+#portfolioContainer{
+	display: none;
+}
 #aboutMeCard{
 	background-color: #ffffff99;
 }
+.portfolioCard{
+	margin: 5%
 
+}
 
-/* background-color: #ffffff66; */
