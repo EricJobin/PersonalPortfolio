@@ -1,0 +1,59 @@
+body{
+	background-image: url("../images/blackBirds.png"), 
+		linear-gradient(to bottom right, #990044, #990000, #aa4400, #cccc00);
+	height: 100vh;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.mainBodyContainer {
+	position: relative;
+
+
+	/* text-shadow:
+		-1px -1px 0 #FFDDDD,
+		1px -1px 0 #FFDDDD,
+		-1px 1px 0 #FFDDDD,
+		1px 1px 0 #FFDDDD; */
+}
+#selfie{
+	float:right;
+	max-height: 50vh;
+}
+h2{ /* Section Headings */
+	color: #000000;
+	text-shadow:
+	-1px -1px 0 #88666699,
+	1px -1px 0 #88666699,
+	-1px 1px 0 #88666699,
+	1px 1px 0 #88666699;
+}
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+ }
+ .card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+#aboutMeCardContainer{
+	display: none;
+	margin-top: 10vh;
+
+	/* margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%); */
+}
+#aboutMeCard{
+	background-color: #ffffff99;
+}
+
+
+/* background-color: #ffffff66; */
