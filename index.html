@@ -63,7 +63,7 @@
 
 			<div class="row"> 
 				
-				<div class="col-sm-12 col-md-6 col-lg-4">
+				<div class="col-sm-12 col-md-6 col-lg-4 pclick" data-toggle="modal" data-target="#portfolioModal" data-id="0">
 					<div class="card portfolioCard">
 						<img class="card-img-top" src="./assets/images/gitHub640x480.jpg" alt="GitHub Repository">
 						<div class="card-body">
@@ -72,7 +72,7 @@
 					</div>
 				</div>
 
-				<div class="col-sm-12 col-md-6 col-lg-4">
+				<div class="col-sm-12 col-md-6 col-lg-4 pclick" data-toggle="modal" data-target="#portfolioModal" data-id="1">
 					<div class="card portfolioCard">
 						<img class="card-img-top" src="./assets/images/stayIn640x480.jpg" alt="Stay In">
 						<div class="card-body">
@@ -81,7 +81,7 @@
 					</div>
 				</div>
 
-				<div class="col-sm-12 col-md-6 col-lg-4">
+				<div class="col-sm-12 col-md-6 col-lg-4 pclick" data-toggle="modal" data-target="#portfolioModal" data-id="2">
 					<div class="card portfolioCard">
 						<img class="card-img-top" src="./assets/images/emergencyRecipe640x480.jpg" alt="Emergency Recipe">
 						<div class="card-body">
@@ -90,7 +90,7 @@
 					</div>
 				</div>
 
-				<div class="col-sm-12 col-md-6 col-lg-4">
+				<div class="col-sm-12 col-md-6 col-lg-4 pclick" data-toggle="modal" data-target="#portfolioModal" data-id="3">
 					<div class="card portfolioCard">
 						<img class="card-img-top" src="./assets/images/trainSchedule640x480.jpg" alt="Train Scheduler">
 						<div class="card-body">
@@ -99,7 +99,7 @@
 					</div>
 				</div>
 
-				<div class="col-sm-12 col-md-6 col-lg-4">
+				<div class="col-sm-12 col-md-6 col-lg-4 pclick" data-toggle="modal" data-target="#portfolioModal" data-id="4">
 					<div class="card portfolioCard">
 						<img class="card-img-top" src="./assets/images/triviaGame640x480.jpg" alt="Trivia Game">
 						<div class="card-body">
@@ -108,7 +108,7 @@
 					</div>
 				</div>
 
-				<div class="col-sm-12 col-md-6 col-lg-4">
+				<div class="col-sm-12 col-md-6 col-lg-4 pclick" data-toggle="modal" data-target="#portfolioModal" data-id="5">
 					<div class="card portfolioCard">
 						<img class="card-img-top" src="./assets/images/wordGuessGame640x480.jpg" alt="Hangman Game">
 						<div class="card-body">
@@ -132,23 +132,46 @@
 
 			</div> <!-- Content -->
         </div>
-	</div>
 
-	<footer>
-		<div class="container">
-			<div class="row">
-				<div class="col-5">
-					<h2 id="about">About</h2>
-				</div>
-				<div class="col-5">
-					<h2 id="portfolio">Portfolio</h2>
-				</div>
-				<div class="col-2">
-					<a target="_blank" href="https://github.com/EricJobin"><i class="fab fa-github fa-2x"></i></a>
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-5">
+						<h2 id="about">About</h2>
+					</div>
+					<div class="col-5">
+						<h2 id="portfolio">Portfolio</h2>
+					</div>
+					<div class="col-2">
+						<a target="_blank" href="https://github.com/EricJobin"><i class="fab fa-github fa-2x"></i></a>
+					</div>
 				</div>
 			</div>
+		</footer>
+
+	</div>
+
+
+
+	<div id="portfolioModal" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+		
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-header">
+					<h3 class="modal-title">Project Name</h3>
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+				</div>
+				<div class="modal-body">
+					<!-- Intentionally left Blank -->
+				</div>
+				<div class="modal-footer">
+					<!-- Intentionally left Blank -->
+				</div>
+			</div>
+
 		</div>
-	</footer>
+	</div>
 
 </body>
 </html>
