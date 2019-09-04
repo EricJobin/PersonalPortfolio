@@ -2,13 +2,13 @@ var pdata = [
 	{
 		name: "GitHub Repository",
 		picture: "./assets/images/gitHub640x480.jpg",
-		writeup: "Put some stuff here",
-		footer: `<a target="_blank" href="https://github.com/EricJobin" class="btn btn-outline-success">Visit My GitHub Repository</a>`,
+		writeup: "This here is my GitHub repository, where I keep the code I have written in the past, as a reference and as a snapshot of my abilites as a coder and how I've progressed.",
+		footer: `<a target="_blank" href="https://github.com/EricJobin?tab=repositories" class="btn btn-outline-success">Visit My GitHub Repository</a>`,
 	},
 	{
 		name: "Stay In",
 		picture: "./assets/images/stayIn640x480.jpg",
-		writeup: "Designed to be the Uber for Personal Chefs, Stay In connects people with personal chefs who will come to your home and cook for you",
+		writeup: "Designed to be the Uber for Personal Chefs, Stay In connects people with personal chefs who will come to your home and cook for you.",
 		footer: `<a target="_blank" href="https://limitless-ocean-73138.herokuapp.com" class="btn btn-outline-success">Visit Deployed Project</a> <a target="_blank" href="https://github.com/EricJobin/HomeChef" class="btn btn-outline-success">Visit Project Repository</a>`,
 	},
 	{
@@ -18,28 +18,28 @@ var pdata = [
 		footer: `<a target="_blank" href="https://ericjobin.github.io/group-project-1/" class="btn btn-outline-success">Visit Deployed Project</a> <a target="_blank" href="https://github.com/EricJobin/group-project-1" class="btn btn-outline-success">Visit Project Repository</a>`,
 	},
 	{
-		name: "",
-		picture: "",
-		writeup: "",
-		footer: `<a target="_blank" href="https://github.com/EricJobin"><button type="button" class="btn btn-outline-success" data-dismiss="modal">Visit Project Repository</button></a>`,
+		name: "Train Scheduler",
+		picture: "./assets/images/trainSchedule640x480.jpg",
+		writeup: "This Train Scheduler was created to experiment with the Moment.js library and to have integration with Google Firebase, to maintain persistence across sessions and machines.",
+		footer: `<a target="_blank" href="https://ericjobin.github.io/Train-Schedule/" class="btn btn-outline-success">Visit Deployed Project</a> <a target="_blank" href="https://github.com/EricJobin/Train-Schedule" class="btn btn-outline-success">Visit Project Repository</a>`,
 	},
 	{
-		name: "",
-		picture: "",
-		writeup: "",
-		footer: `<a target="_blank" href="https://github.com/EricJobin"><button type="button" class="btn btn-outline-success" data-dismiss="modal">Visit Project Repository</button></a>`,
+		name: "Trivia Game",
+		picture: "./assets/images/triviaGame640x480.jpg",
+		writeup: "This Trivia Game was created to become familiar with Javascript timers, and jQuery. The site uses a Bootstrap framework. The quiz focuses on the Mythos stories written by H.P. Lovecraft.",
+		footer: `<a target="_blank" href="https://ericjobin.github.io/TriviaGame/" class="btn btn-outline-success">Visit Deployed Project</a> <a target="_blank" href="https://github.com/EricJobin/TriviaGame" class="btn btn-outline-success">Visit Project Repository</a>`,
 	},
 	{
-		name: "",
-		picture: "",
-		writeup: "",
-		footer: `<a target="_blank" href="https://github.com/EricJobin"><button type="button" class="btn btn-outline-success" data-dismiss="modal">Visit Project Repository</button></a>`,
+		name: "Hangman Game",
+		picture: "./assets/images/wordGuessGame640x480.jpg",
+		writeup: "This Word Guess Game is a hangman style game created to become familiar with Javascript events.",
+		footer: `<a target="_blank" href="https://ericjobin.github.io/Word-Guess-Game/" class="btn btn-outline-success">Visit Deployed Project</a> <a target="_blank" href="https://github.com/EricJobin/Word-Guess-Game" class="btn btn-outline-success">Visit Project Repository</a>`,
 	},
 	// {
 	// 	name: "",
 	// 	picture: "",
 	// 	writeup: "",
-	// 	footer: `<a target="_blank" href="https://github.com/EricJobin"><button type="button" class="btn btn-outline-success" data-dismiss="modal">Visit Project Repository</button></a>`,
+	// 	footer: `<a target="_blank" href="**Deployed*Project**" class="btn btn-outline-success">Visit Deployed Project</a> <a target="_blank" href="**Repo**" class="btn btn-outline-success">Visit Project Repository</a>,
 	// },
 ];
 
